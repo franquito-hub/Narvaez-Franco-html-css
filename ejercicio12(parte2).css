@@ -1,0 +1,89 @@
+/* Estilo general para todo el documento */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e90101; /* Color de fondo oscuro para la barra de navegación */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Asegura que la barra de navegación esté sobre el contenido */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* Color de texto al pasar el ratón */
+    border-bottom: 2px solid #ffcc00; /* Línea debajo del enlace al pasar el ratón */
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px; /* Espacio para la barra de navegación */
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.section:not(:last-child) {
+    height: calc(100vh - 120px); /* Alto de las secciones principales menos el alto de la barra de navegación y el pie de página */
+    background-color: #ffffff; /* Color de fondo blanco para las secciones principales */
+    border-bottom: 2px solid #ddd; /* Línea inferior para separar las secciones */
+}
+
+#seccion3 {
+    height: calc(100vh - 60px); /* Alto de la sección 3 menos el alto de la barra de navegación */
+    background-color: #f0f0f0; /* Color de fondo diferente para la sección 3 */
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #eb0202; /* Color de fondo oscuro para el pie de página */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Cambiado a columna para alinear el texto de contacto debajo del título */
+}
+
+.footer-title {
+    background-color: #5f1402; /* Azul oscuro de fondo */
+    color: rgb(10, 9, 9); /* Color del texto */
+    padding: 10px 20px; /* Añade espacio alrededor del texto */
+    border-radius: 5px; /* Opcional: añade bordes redondeados */
+}
+
+.link {
+    margin-top: 20px;
+    color: #990a00;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #030303; /* Color del enlace al pasar el ratón */
+}
