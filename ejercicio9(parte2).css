@@ -1,0 +1,24 @@
+/* Cambia el color del texto del elemento h1 */
+h1 {
+    color: #3aff33; /* Puedes elegir cualquier color de la lista proporcionada */
+}
+
+/* Dale un ancho de 350px a las imágenes */
+img {
+    width: 350px;
+}
+
+/* Cambia la altura y el ancho de 'thirdDiv' */
+#thirdDiv {
+    height: 500px;
+    width: 500px;
+    background-color: #ADD8E6; /* Elige cualquier color que prefieras */
+    padding: 50px;
+    border: 2px solid #000000; /* Puedes cambiar el ancho, color y estilo */
+}
+
+/* Cambia el tamaño de la fuente para 'spanId' */
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
