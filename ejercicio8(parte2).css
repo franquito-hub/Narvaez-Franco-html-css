@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.red {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+}
+
+.blue {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+}
+
+.green {
+    background-color: green;
+    top: 150px;
+    left: 150px;
+}
